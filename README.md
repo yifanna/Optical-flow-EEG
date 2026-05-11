@@ -4,11 +4,11 @@
 # All output files will be automatically saved to the designated path, eliminating the need for manual folder creation.
 
 ## Execution Sequence (Must be strictly followed; otherwise, an error will occur)
-   1. Run Data_extractions.py (Read the original BDF data)
-   2. Run Data_processing.py (Preprocess the data and align the formats)
-   3. Run eeg_methods_AF_01.py (Generate amplitude/phase topographic maps)
-   4. Run EEG_OFAMM_02.py (Optical flow analysis, generate flow_results.mat)
-   5. Run RF-Hunhe_03.py (Random forest classification, output the final results)
+   1. python Data_extractions.py (Read the original BDF data)
+   2. python Data_processing.py (Preprocess the data and align the formats)
+   3. python eeg_methods_AF_01.py (Generate amplitude/phase topographic maps)
+   4. python EEG_OFAMM_02.py (Optical flow analysis, generate flow_results.mat)
+   5. python RF-Hunhe_03.py (Random forest classification, output the final results)
    
 ## Environment Installation (Copy and paste into the terminal, install all dependencies in one step)
    All script dependencies have been organized. No separate installation is required. Copy the following command and run it directly:
